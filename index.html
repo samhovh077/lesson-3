@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gladiator Battle</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Gladiator Battle</h1>
+    <button id="start-button">Start Battle</button>
+    <h2>Battle Log</h2>
+    <div id="battle-log"></div>
+    <script type="module">
+      import { faker } from 'https://cdn.jsdelivr.net/npm/@faker-js/faker/+esm';
+      window.faker = faker;
+    </script>
+    <script type="module" src="./task2.js"></script>
+  </body>
+</html>
